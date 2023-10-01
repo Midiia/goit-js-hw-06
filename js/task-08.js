@@ -24,13 +24,14 @@ function handlerSubmit(evt) {
             datas.key = value
           });
         
-          console.log(data);
-        
-          console.log(formData);
 
     if (email.value === "" || password.value === "") {
             return alert("Please fill in all the fields!");
         } 
+
+      console.log(data);
+        
+      console.log(formData);
     
     evt.currentTarget.reset();
 
